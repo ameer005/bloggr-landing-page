@@ -144,6 +144,12 @@
     }
   }
 
+  &__item-box {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+  }
+
   &__link:link,
   &__link:visited {
     text-decoration: none;
@@ -394,6 +400,10 @@
 
     @include respond(tab-land-max) {
       margin-bottom: 10rem;
+    }
+
+    @include respond(phone) {
+      margin-bottom: 0rem;
     }
   }
 

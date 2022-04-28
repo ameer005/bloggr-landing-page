@@ -1,7 +1,7 @@
 const menuBtn = document.querySelector(".nav__menu");
 
 document.addEventListener("click", function (e) {
-  const isDropdownButton = e.target.closest(".nav__link");
+  const isDropdownButton = e.target.closest(".nav__item-box");
 
   if (!isDropdownButton && e.target.closest("nav__item") !== null) return;
 

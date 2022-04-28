@@ -4,7 +4,7 @@
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [github pages](https://ameer005.github.io/bloggr-landing-page/)
 
 ### Built with
 
